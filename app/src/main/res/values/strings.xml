@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HeadsUpApp</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="heads_up">Heads up!</string>
+    <string name="start">START</string>
+    <string name="add_celebrity">Add Celebrity</string>
+    <string name="celebrity_name">Celebrity Name</string>
+    <string name="names_cl">Arwa\n Amal\n Fatima\n Ahmad</string>
+    <string name="taboo1">taboo1</string>
+    <string name="taboo2">taboo2</string>
+    <string name="taboo3">taboo3</string>
+    <string name="update_celebrity">Update Celebrity</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:background="@drawable/add_update_container"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/celebrity_name_et_update"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edit_text_container"
+        android:hint="@string/celebrity_name"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/taboo1_et_update"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/edit_text_container"
+        android:hint="@string/taboo1"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/celebrity_name_et_update" />
+
+    <EditText
+        android:id="@+id/taboo2_et_update"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/edit_text_container"
+        android:hint="@string/taboo2"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/taboo1_et_update" />
+
+    <EditText
+        android:id="@+id/taboo3_et_update"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/edit_text_container"
+        android:hint="@string/taboo3"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/taboo2_et_update" />
+
+    <TextView
+        android:id="@+id/update_celebrity_button"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/button_container"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/update_celebrity"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/taboo3_et_update" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
