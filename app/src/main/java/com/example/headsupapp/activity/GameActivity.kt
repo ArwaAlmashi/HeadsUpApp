@@ -111,7 +111,6 @@ class GameActivity : AppCompatActivity() {
             // Update List
             getCelebrityListFromApi()
             gameActive = false
-
         }
     }
 
